@@ -35,9 +35,9 @@ p {
 
 .profila{
   border-radius: 50%;
-  height: 180px;
+  height: 190px;
   width: 185px;
-  border-style:groove;
+  border-style:none;
 }
 
 #lol{
