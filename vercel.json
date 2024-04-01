@@ -1,16 +1,1 @@
-{
-    "routes":[
-        {
-        "src":"/",
-        "dest":"/"
-        },
-        {
-        "src":"/about",
-        "dest":"/about"
-        },
-        {
-        "src":"/contact",
-        "dest":"/contact"
-        }
-    ]
-  }
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api" }] }
